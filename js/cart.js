@@ -112,7 +112,7 @@ if (window.location.pathname.endsWith("confirmation.html")) {
                 for (let i = 0; i < productLocalStorage.length; i++) {
                     products.push(productLocalStorage[i].id)
                 }
-                fetch("http://localhost:3000/api/products/order", {
+                fetch("https://ndeby-veronique-chimene-5-back.onrender.com", {
                         method: "POST",
                         body: JSON.stringify({contact,products}),
                         headers: {

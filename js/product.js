@@ -1,7 +1,7 @@
 // Get the id on the URL of the page, retrieve it and put its data
 const urlSearch = new URLSearchParams(window.location.search)
 const id = urlSearch.get("id")
-fetch("http://localhost:3000/api/products/" + id)
+fetch("https://ndeby-veronique-chimene-5-back.onrender.com" + id)
     .then(resp => { if (resp.ok) {return resp.json()} })
 
     .then(productSelect => {

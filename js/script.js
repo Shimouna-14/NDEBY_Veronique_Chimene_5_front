@@ -1,5 +1,5 @@
 // The link for the API informations in JSON
-fetch("http://localhost:3000/api/products")
+fetch("https://ndeby-veronique-chimene-5-back.onrender.com")
     .then(resp => {if (resp.ok) {return resp.json()}})
     
     // Display the table information with a loop
