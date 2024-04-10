@@ -1,5 +1,5 @@
 // The link for the API informations in JSON
-fetch("https://ndeby-veronique-chimene-5-back.onrender.com")
+fetch("https://ndeby-veronique-chimene-5-back.onrender.com/api/products")
     .then(resp => {if (resp.ok) {return resp.json()}})
     
     // Display the table information with a loop
